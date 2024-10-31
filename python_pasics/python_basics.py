@@ -57,8 +57,8 @@ diabetes_dataset=load_diabetes()
 diabetes_df=pd.DataFrame(diabetes_dataset.data)
 print(diabetes_df)
 
-example_dataset=pd.read_csv('/content/sample_data/mnist_test.csv')
-print(example_dataset.head())
+# example_dataset=pd.read_csv('/content/sample_data/mnist_test.csv')
+# print(example_dataset.head())
 
 import numpy as np
 
